@@ -1,0 +1,161 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(152, 236, 218);
+}
+
+#fortitle {
+   
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.fortitle1 {
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 0.2rem; 
+    color: rgb(17, 56, 27);   
+
+}
+
+#second {
+    text-align: center;
+    padding-top: 5px;
+}
+.secondpara {
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 0.1rem; 
+    color: rgb(180, 38, 157);
+}
+
+#cont {
+    width: 100%;
+    height: 35vh;
+   }
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20%;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: rgb(13, 77, 45);
+}
+
+.box1, .box2, .box3 {
+    width: 35%;
+    height: 30vh;
+    background-color: rgb(186, 209, 243);
+    padding: 30px;
+    border-radius: 50%;
+    margin: 30px;
+
+}
+
+.box2 p {
+    font-size: 8rem;
+}
+
+.boxes2 {
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(13, 77, 45);
+    display: flex;
+ 
+}
+
+.box3a{
+    position: relative;
+    top: 50px;
+    color: rgb(32, 29, 218);
+}
+.box3b{
+    position: relative;
+    top: 10px;
+    color: rgb(32, 29, 218);
+}
+.box3c{
+    position: relative;
+    top: 50px;
+    color: rgb(32, 29, 218);
+}
+
+
+#third {
+   position: absolute;
+    background-color: rgb(164, 219, 233);
+    border-radius: 10%;
+   right: 20px; 
+   top: 150px;
+   
+}
+
+.result{
+   height: 7vh;
+   width: 10vw;
+   border-radius: 10%;
+   font-size: 3rem;
+   text-align: center;
+   color: rgb(29, 105, 219);
+   font-weight: bold;
+   background-color: rgb(196, 240, 175);
+  
+}
+
+.myimage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgcls{
+   
+    width: 50%;
+    padding-top: 10px;
+    border-radius: 15%;
+}
+
+.mybtn {
+    position: relative;
+    font-size: 2rem;
+    border-radius: 6px;
+    padding: 6px;
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+   margin-left: 40px;
+    
+    
+  
+}
+
+
+.mybtn:hover {
+background-color: rgb(83, 204, 83);
+}
+
+.output {
+    font-size: 2.4rem;
+    border-radius: 6px;
+    padding: 6px;
+    color: rgb(15, 228, 79);
+    font-weight: bold;
+    margin-top: 10px;
+    width: 60%;
+    text-align: center;
+    background-color: rgb(248, 248, 171);
+}
